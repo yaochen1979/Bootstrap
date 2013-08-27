@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Basic Grid System</title>
+<link href="../../../css/bootstrap.css" rel="stylesheet" media="screen">
+<script src="../../../js/jquery-1.9.1.min.js"></script>
+<script src="../../../js/bootstrap.js"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+    
+        <!-- 
+                     基本長度就是12, 如果一個 .row* 中 span* 的總長度超過12的話,
+                     畫面就會位移.
+        -->
+        <div class="row-fluid">
+            <div class="span4">span 4</div>
+            <div class="span4">span 4</div>
+            <div class="span4">span 4</div>
+
+            <!-- <div class="span4">span 4</div> -->
+            
+        </div>
+        
+        <hr/>
+        
+        <div class="row-fluid">
+            <div class="span12">span 12</div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
